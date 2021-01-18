@@ -12,8 +12,8 @@ $.fn.autoResize = function(){
 	return this.each((i,e) => {
 		e.style.overflow = 'hidden';
 		r(e);
-		$(e).bind('input', (i,e) => {
-			r(e);
+		$(e).bind('input', e => {
+			r(e.target);
 		})
 	})
 };
