@@ -1,4 +1,20 @@
 # autoResize
-Jquery Plugin Textarea Auto resize height
+The very lightweight Jquery Textarea plugin Autosize height
 
-![](autoresizeplugin.gif)
+# Preview
+![Preview](autoresizeplugin.gif)
+# Example:
+
+Including files
+
+```html
+<script src="Jquery.autoResize.min.js"></script>
+```
+
+Initialization plugin:
+
+```javascript
+$('texterea').autoResize();
+```
+
+[Developers](https://gdr.one)
